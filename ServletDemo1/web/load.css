@@ -1,0 +1,88 @@
+@charset "UTF-8";
+#page{
+	background-color:white;
+	width:auto;
+	height:600px;
+	border:1px;
+	margin:auto;
+}
+
+#page_head{
+	background-color:#F5F5F5;
+	height:60px
+}
+
+#page_body{
+	background-color:yellow;
+	height:460px;
+	width:964px;
+	margin:auto;
+	background-image:url(img/login_bg_02.jpg)
+}
+
+#page_foot{
+	background-color:#F5F5F5;
+	height:70px;
+	width:964px;
+	margin:auto;
+	padding-top:20px;
+	text-align:center
+}
+
+#logo{
+	margin-left:100px;
+}
+
+#login{
+	margin-top:60px;
+	margin-left:550px;
+	width:380px;
+	height:350px;
+	position:absolute;
+	background-color:white;
+	
+}
+
+#loginTitle{
+	width:380px;
+	height:40px;
+	padding-top:10px;
+	background-color:orange;
+	text-align:center;
+	color:#FFF;
+	font-size:16px
+}
+
+#tip{
+	display:none;
+	height:50px;
+	width:380px;
+	background-color:#CC3300;
+	color:white;
+	text-align:center;
+	line-height:50px;
+}
+
+.textitem1{
+	position:absolute;
+	height:40px;
+	left:30px;
+	top:100px
+}
+
+.textitem2{
+	position:absolute;
+	height:40px;
+	left:30px;
+	top:160px
+}
+
+.btn{
+	height:38px;
+	width:100px;
+	border:none;
+	color:#FFF;
+	font-weight:400;
+	font-size:20px;
+	font-family:"微软雅黑"
+}
